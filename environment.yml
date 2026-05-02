@@ -1,0 +1,19 @@
+name: assignment1-ga
+
+channels:
+  - conda-forge
+  - defaults
+
+dependencies:
+  - python=3.11
+  - pip
+  - numpy
+  - pandas
+  - matplotlib
+  - ipykernel
+  - jupyter
+  - graphviz
+  - python-graphviz
+  - pip:
+      - deap
+      - pm4py
